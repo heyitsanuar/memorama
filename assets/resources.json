@@ -1,0 +1,56 @@
+{
+    "playableCards": [
+        {
+            "id": 1,
+            "name": "apple",
+            "img": "img/apple.png"
+        },
+        {
+            "id": 2,
+            "name": "banana",
+            "img": "img/banana.png"
+        },
+        {
+            "id": 3,
+            "name": "coconut",
+            "img": "img/coconut.png"
+        },
+        {
+            "id": 4,
+            "name": "grape",
+            "img": "img/grape.png"
+        },
+        {
+            "id": 5,
+            "name": "lemon",
+            "img": "img/lemon.png"
+        },
+        {
+            "id": 6,
+            "name": "orange",
+            "img": "img/orange.png"
+        },
+        {
+            "id": 7,
+            "name": "pear",
+            "img": "img/pear.png"
+        },
+        {
+            "id": 8,
+            "name": "pineapple",
+            "img": "img/pineapple.png"
+        },
+        {
+            "id": 9,
+            "name": "watermelon",
+            "img": "img/watermelon.png"
+        }
+    ],
+    "coverCard": {
+        "id": 0,
+        "name": "cover",
+        "img": "img/cover.png"
+    }
+
+
+}
