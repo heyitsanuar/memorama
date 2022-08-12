@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import Intro from './pages/Intro';
+import PlayerBoard from './pages/PlayerBoard';
 import './App.css';
 
 function App() {
+  const [isGameRunning, setIsGameRunning] = useState(false);
+  const [players, setPlayers] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isGameRunning 
+        ? <PlayerBoard players={players} setPlayers={setPlayers} /> 
+        : <Intro players={players} setIsGameRunning={setIsGameRunning} setPlayers={setPlayers} /> 
+      }
     </div>
   );
 }

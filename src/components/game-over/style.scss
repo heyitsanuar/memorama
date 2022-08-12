@@ -1,0 +1,51 @@
+.game-over {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+    background: rgba(0,0,0,0.5);
+}
+
+.game-over-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.game-over-container {
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.game-over-heading {
+    display: flex;
+    margin-top: 50px;
+}
+
+.game-over-heading h1 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.game-over-btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.game-over-trophy {
+    width: 50%;
+}
